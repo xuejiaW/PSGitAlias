@@ -30,7 +30,7 @@ CompanyName = 'Unknown'
 Copyright = '(c) Tuncle. All rights reserved.'
 
 # Description of the functionality provided by this module
-Description = 'Git Alias'
+Description = 'Provide git alias refer to [Git Alias](https://github.com/GitAlias/gitalias)'
 
 # Minimum version of the PowerShell engine required by this module
 # PowerShellVersion = ''
@@ -101,7 +101,7 @@ PrivateData = @{
         # LicenseUri = ''
 
         # A URL to the main website for this project.
-        # ProjectUri = ''
+        ProjectUri = 'https://github.com/xuejiaW/PSGitAlias'
 
         # A URL to an icon representing this module.
         # IconUri = ''
