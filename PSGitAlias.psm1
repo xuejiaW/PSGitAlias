@@ -18,4 +18,8 @@ $FunctionToExport = @(
     'grhgc'
 )
 
+foreach ($Function in $FunctionToExport) {
+    Remove-Alias $Function -Force -ErrorAction SilentlyContinue
+}
+
 Export-ModuleMember -Function $FunctionToExport 
