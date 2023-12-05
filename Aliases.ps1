@@ -1,3 +1,9 @@
+# Refer to https://github.com/GitAlias/gitalias
+
+# Git Add
+function ga { & git add @args }
+function  gaa { & git add --a }
+
 # Git Status
 function gs { git status }
 
@@ -22,9 +28,6 @@ function gcs { & git commit -s @args }
 function gca { & git commit --amend }
 function gcan { & git commit --amend --no-edit }
 
-# Git Add
-function ga { & git add @args }
-function  gaa { & git add --a }
 
 # Git Reset
 function grh { & git reset --hard @args }
@@ -35,5 +38,19 @@ function grhgc {
     git clean -dff
 }
 
+# Git Rebase
 
-function gp { & git pull --rebase }
+function grb { & git rebase  @args }
+function grbi { & git rebase --interactive  @args }
+
+# Git Pull
+function gpr { & git pull --rebase }
+
+# Git Submodule
+function gsm { & git submodule @args }
+function gsmi { & git submodule init @args }
+function gsma { & git submodule add @args }
+function gsms { & git submodule sync @args }
+function gsmu { & git submodule update @args }
+function gsmui { & git submodule update --init @args }
+function gsmuir { & git submodule update --init --recursive @args }

@@ -15,7 +15,17 @@ $FunctionToExport = @(
     'gaa',
     'grh',
     'gr',
-    'grhgc'
+    'grhgc',
+    'grb',
+    'grbi',
+    'gpr',
+    'gsm',
+    'gsmi',
+    'gsma',
+    'gsms',
+    'gsmu',
+    'gsmui',
+    'gsmuir'
 )
 
 foreach ($Function in $FunctionToExport) {
