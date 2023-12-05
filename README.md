@@ -10,7 +10,7 @@ The aliases defined in this project refer to [Git aliases](https://github.com/Gi
 First, you need to install module from [PowerShell Gallery](https://www.powershellgallery.com/)：
 
 ```powershell
-Install-Module -Name PSGitAlias -RequiredVersion 0.0.1
+Install-Module -Name PSGitAlias -Scope CurrentUser -AllowClobber -Force
 ```
 
 Then, you can import module in your PowerShell profile:
